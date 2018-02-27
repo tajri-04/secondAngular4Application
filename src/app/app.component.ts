@@ -16,7 +16,16 @@ export class AppComponent {
    /* console.log(first,second);*/
     console.error(this.name);
   }
-  show(){
+  show() : void {
     console.log(this.name);
+  }
+  select() : void{
+    console.log("you have been selected some text");
+  }
+  blur(){
+    console.log("input has been losed focus");
+  }
+  focus(){
+    console.log("focus has been in focus");
   }
 }
